@@ -1,0 +1,130 @@
+.auth-page {
+  position: relative;
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: 32px 20px;
+  overflow: hidden;
+  background: #f2f7f3;
+}
+
+.auth-page-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 420px);
+  padding: 32px;
+  border: 1px solid #d5e1d8;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 20px 55px rgb(39 86 65 / 12%);
+}
+
+.auth-page-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 26px;
+  color: #123b2c;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.auth-page-brand .brand-mark {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px 14px 14px 4px;
+}
+
+.auth-page-brand .brand-mark svg {
+  width: 28px;
+  height: 28px;
+}
+
+.auth-page-brand small {
+  display: block;
+  margin-top: 3px;
+  color: #68766e;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.auth-page-language {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #68766e;
+  font-size: 11px;
+}
+
+.auth-page-language select {
+  min-height: 32px;
+  border: 1px solid #d5e1d8;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px 8px;
+  color: #123b2c;
+  font-size: 12px;
+}
+
+.auth-form-content {
+  display: grid;
+  gap: 18px;
+}
+
+.auth-form-header {
+  display: grid;
+  gap: 8px;
+  text-align: center;
+}
+
+.auth-form-header h1 {
+  margin: 0;
+  color: #123b2c;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.auth-form-header p {
+  margin: 0;
+  color: #68766e;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.auth-form-content button {
+  min-height: 44px;
+}
+
+.auth-page-back {
+  display: block;
+  margin-top: 22px;
+  color: #287653;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .auth-page {
+    align-items: start;
+    padding: 16px;
+  }
+
+  .auth-page-card {
+    margin-top: 46px;
+    padding: 24px 16px;
+  }
+
+  .auth-page-language {
+    top: 12px;
+    right: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "kishan-saathi-backend",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Chat API for the Kishan Saathi farm loan assistant (Groq free tier by default)",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.0",
+    "jose": "^6.2.12"
+  }
+}

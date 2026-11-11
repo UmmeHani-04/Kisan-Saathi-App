@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "note": "Starter knowledge base written from general public information. Scheme limits, interest rates and rules change often. BEFORE LAUNCH, verify every item against NABARD, your bank, pmkisan.gov.in and the Ministry of Agriculture, then update this file. No code change or redeploy of the frontend is needed to edit it.",
+    "last_reviewed": "UNREVIEWED - please set a date after you verify"
+  },
+  "schemes": [
+    {
+      "id": "kcc",
+      "name": "Kisan Credit Card (KCC)",
+      "type": "Credit / loan facility",
+      "summary": "A revolving credit facility from banks (commercial, regional rural and cooperative banks) that gives farmers timely, low-cost credit for cultivation expenses such as seeds, fertiliser and pesticides, plus post-harvest and working-capital needs. It has also been extended to animal husbandry and fisheries.",
+      "who_can_apply": [
+        "Farmers who own and cultivate land, individually or jointly",
+        "Tenant farmers, oral lessees and sharecroppers",
+        "Self-help groups and joint liability groups of farmers",
+        "Farmers in dairy, poultry, fisheries and other allied activities (through the allied-activity version)"
+      ],
+      "interest_and_benefits": "Banks have offered KCC crop loans at subsidised rates under the government's Modified Interest Subvention Scheme, with an extra incentive for repaying on time, which can bring the effective rate down a lot for loans up to a limit. The exact subsidy, limit and eligibility change from year to year, so the farmer must confirm the current terms with the bank.",
+      "collateral": "Small loans up to a RBI-set limit are generally available without collateral (the limit was raised to Rs 2 lakh in 2025). Larger loans may need land or other security.",
+      "official_source": "Your bank branch, or the PM-KISAN / KCC saturation drive pages on pmkisan.gov.in"
+    },
+    {
+      "id": "pm-kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "type": "Income support - NOT a loan",
+      "summary": "Direct income support of Rs 6,000 per year to eligible landholding farmer families, paid in three instalments of Rs 2,000 straight into the bank account (DBT). It is separate from a loan, but PM-KISAN beneficiaries can also be helped to get a KCC.",
+      "who_can_apply": [
+        "Landholding farmer families as per the scheme rules",
+        "Certain categories (for example higher-income taxpayers and some institutional landholders) are excluded"
+      ],
+      "needs": "Aadhaar-linked bank account, land records, and completed e-KYC. Mismatched names or incomplete e-KYC are common reasons for payment delays.",
+      "official_source": "pmkisan.gov.in"
+    },
+    {
+      "id": "pmfby",
+      "name": "PM Fasal Bima Yojana (PMFBY)",
+      "type": "Crop insurance",
+      "summary": "Insurance that protects farmers against crop loss from natural calamities, pests and diseases. Farmers pay a small share of the premium (generally 2% for kharif food crops, 1.5% for rabi food crops and 5% for commercial and horticultural crops); the government pays the rest. Farmers who take a crop loan are usually enrolled through the bank.",
+      "official_source": "pmfby.gov.in or your bank / Common Service Centre"
+    },
+    {
+      "id": "aif",
+      "name": "Agriculture Infrastructure Fund (AIF)",
+      "type": "Loan with interest subsidy",
+      "summary": "Medium to long-term loans for post-harvest and farm-gate infrastructure such as cold storage, warehouses, sorting and grading units and primary processing. An interest subsidy applies on loans up to a limit for a fixed number of years, and a credit guarantee is available.",
+      "official_source": "agriinfra.dac.gov.in"
+    },
+    {
+      "id": "term-loans",
+      "name": "Farm term loans (investment credit)",
+      "type": "Loan",
+      "summary": "Banks give term loans for longer-term farm investments such as tractors and farm machinery, irrigation (pump sets, drip, sprinklers), land development, orchards, dairy, poultry and fisheries. NABARD refinances banks for many of these, and some come with capital or interest subsidies depending on the scheme and state."
+    }
+  ],
+  "documents": {
+    "common": [
+      "Filled loan application form (from the bank)",
+      "Identity proof: Aadhaar card, voter ID, PAN card or driving licence",
+      "Address proof",
+      "Recent passport-size photographs",
+      "Land records showing ownership or cultivation rights (in Maharashtra: 7/12 extract and 8A extract)",
+      "Bank account details / passbook (an Aadhaar-linked account helps)",
+      "Details of the crops to be grown and the area (cropping pattern)"
+    ],
+    "tenant_or_sharecropper_extra": [
+      "Lease or tenancy agreement, or a letter/record accepted by the bank as proof of cultivation",
+      "Sometimes a recommendation from the village revenue officer or a guarantor"
+    ],
+    "may_be_asked_for_larger_loans": [
+      "Property or mortgage documents and valuation",
+      "Quotations or estimates for machinery or construction",
+      "Income proof, and details of existing loans",
+      "Insurance documents"
+    ],
+    "caution": "Every bank has its own checklist and it can change. Ask the branch for its current list before visiting."
+  },
+  "eligibility_basics": [
+    "The applicant is usually an adult farmer who owns or cultivates land (owner, tenant, sharecropper or part of a farmer group).",
+    "Banks check land records, repayment history (CIBIL or credit history), existing farm loans and the purpose of the loan.",
+    "Older farmers may be asked for a co-borrower. Rules differ by bank.",
+    "Having PM-KISAN or a land record does not guarantee approval. The bank makes the final decision."
+  ],
+  "safety_tips": [
+    "Never pay an agent or any person money to 'guarantee' loan sanction. Official bank processing fees are written in the sanction terms.",
+    "Never share your OTP, ATM PIN or password with anyone, including people claiming to be from the bank or the government.",
+    "Apply only through the bank branch, the bank's official website or app, or official government portals.",
+    "Be careful of anyone promising a loan waiver or free money."
+  ],
+  "helplines": [
+    {
+      "name": "Kisan Call Centre",
+      "number": "1800-180-1551",
+      "about": "Free farming advice and scheme information in many languages."
+    },
+    {
+      "name": "PM-KISAN helpline",
+      "number": "155261 / 011-24300606",
+      "about": "Questions about PM-KISAN instalments and registration."
+    }
+  ]
+}
